@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+@import "presentation.css";
+
+.impress-not-supported .step{
+	position: relative;
+	margin: 10px;
+}
+
+</style> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1024" />
+<title>Unbenanntes Dokument</title>
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress"  data-transition-duration="2000" data-perspective="100">
+
+<div class="step slide" data-x="-7000" data-y="-2000" data-scale="0.8" data-rotate="90">
+	<h1>Softwareentwicklung für moderne Computerspiele und Künstliche Intelligenz</h1>
+    <h3>Naturwissenschaftliches Kolloquium am Gymnasium Norf</h3>
+    <div class="author">
+    	Marius Politze<br/>
+	    Rechen- und Kommunikationszentrum der RWTH Aachen
+    </div>
+</div>
+
+<div class="step slide greyGradient" data-x="-7000" data-y="-1000" data-scale="0.8" data-rotate="90">
+	<h1>Über mich</h1>
+
+    <table>
+    <tr>
+	    <td>2006</td>
+        <td>Abitur am Gymnasium Norf <img src="img/logoNorf.gif"/></td>
+	</tr>
+    <tr>
+    	<td>2006 - 2008</td>
+        <td>Studium Computational Engineering Science   <img src="img/logoRWTH.jpg" width="272" height="73"/></td>
+    </tr>
+    <tr>
+    	<td>2008 - 2010</td>
+        <td>Duales Studium an der FH Aachen <img src="img/logoFH.png"/> <br/> Auszubildender zum Mathematisch- technischen Softwareentwickler <img src="img/logoMATSE.gif" width="152" height="82"/></td>
+    </tr>
+    <tr>
+    	<td>2010 - 2012</td>
+        <td>Studium an der Universität Maastricht <img src="img/logoUM.jpg" width="426" height="82"/> <br/> 
+        Projektkoordinator und Entwickler <br/> Dozent an der FH Aachen für C# und Skriptsprachen</td>
+    </tr>
+    <tr>
+    	<td>seit 2012</td>
+        <td>Wissenschaftlicher Mitarbeiter Projekt: eCampus</td>
+    </tr>
+    </table>
+</div>
+
+<div class="step slide greyGradient" data-x="-7000" data-y="0" data-scale="0.8" data-rotate="90">
+	<h1>Überblick</h1>
+    <ul>
+    	<li>Womit beschäftigt sich KI?</li>
+	    <li>Was sind moderne Computerspiele?</li>
+	    <li>Was ist Wegsuche und wozu braucht man sie?</li>
+	    <li>Wie wird Software entwickelt, die KI nutzt?</li>
+    </ul>
+</div>
+
+<div class="step slide greyGradient" data-x="-7000" data-y="1000" data-scale="0.8" data-rotate="90">
+	<h1>Was ist eigentlich KI?</h1>
+    <ul>
+      	<li>Suchen- und Finden:</li>
+    	<li>Data Mining und Text Mining</li>
+        <li>Information Retireval</li>
+        <li>Optimierung</li>
+		<li>Spiele:</li>
+        <li>Klassische Spiele</li>
+        <li>Moderne Spiele</li>
+      	<li>Autonome Agenten:</li>        
+        <li>Robotik</li>
+        <li>Kollaboration und Kommunikation</li>
+    </ul>
+</div>
+
+<div class="step" data-x="500" data-y="-2300" data-scale="3">
+  <h1>Was sind eigentlich moderne (Computer) Spiele?</h1>
+</div>
+
+<div class="step" data-x="-500" data-y="-2300" data-scale="0.8">
+    <div  style="position: absolute; z-index: 900; left: 853px; top: 38px;"> 
+    	<img src="img/keen.gif" alt="" /></img>
+    	<br/>
+	    <a href="http://www.commander-keen.com/marooned-on-mars.php">Commander Keen (1990)</a> 
+    </div>    
+    <div  style="position: absolute; z-index: 900; left: 441px; top: 116px;"> 
+      <img src="img/tetris.png" alt="" width="283" height="211" /></img> 
+      <br/>
+    	<a href="http://en.wikipedia.org/wiki/Tetris">Tetris (1984)</a>
+    </div>
+    <div  style="position: absolute; z-index: 900; left: 18px; top: 369px;"> 
+    	<img src="img/pacman.png" alt="" width="254" height="326" /></img> 
+        <br/>
+      	<a href="http://en.wikipedia.org/wiki/Pac-Man">Pac-Man (1980)</a>
+    </div>
+    <div  style="position: absolute; z-index: 900; left: 13px; top: 14px;"> 
+      <img src="img/Pong.png" alt="" width="330" height="247" /></img> 
+      <br/>
+      <a href="http://de.wikipedia.org/wiki/Pong">Pong (1972)</a>
+    </div>
+    <div  style="position: absolute; z-index: 900; left: 681px; top: 398px;"> 
+      <img src="img/metroid.png" alt="" width="298" height="240" /></img> 
+      <br/>
+      <a href="http://en.wikipedia.org/wiki/Metroid_(series)">Metroid (1986)</a>
+    </div>
+    <div  style="position: absolute; z-index: 900; left: 350px; top: 451px;">
+    	<img src="img/mario.png" alt="" /></img> <br/>
+      <a href="http://en.wikipedia.org/wiki/Super_Mario_(series)">Super Mario (1985)</a>
+    </div>
+</div>
+
+<div class="step" data-x="500" data-y="-2300" data-scale="0.8">
+  <div style="position: absolute; z-index: 900; left: 204px; top: 293px;">
+        <img src="img/diablo.jpg" width="329" height="245"></img>
+        <br/>
+        <a href="http://en.wikipedia.org/wiki/Diablo_(video_game)">Diablo (1996)</a>
+  	</div>
+	<div style="position: absolute; z-index: 900; left: 325px; top: 29px;">
+		<img src="img/doom.png"></img>
+		<br/>
+		<a href="http://en.wikipedia.org/wiki/Doom_(video_game)">Doom (1993)</a>
+	</div>
+	<div style="position: absolute; z-index: 900; left: 16px; top: 68px;">
+		<img src="img/mortalkombat.png" width="294" height="186"></img>
+		<br/>
+		<a href="http://en.wikipedia.org/wiki/Mortal_Kombat">Mortal Comabat (1992)</a>
+  	</div>
+  	<div style="position: absolute; z-index: 900; left: 437px; top: 566px;">
+		<img src="img/pokemon.png"></img>
+		<br/>
+		<a href="http://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)">Pokemon (1996)</a>
+	</div>
+	<div style="position: absolute; z-index: 900; left: -124px; top: 508px;">
+		<img src="img/sonic.png"></img>
+		<br/>
+		<a href="http://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(video_game)">Sonic the Hedgehog (1991)</a>
+	</div>
+	<div style="position: absolute; z-index: 900; left: 661px; top: 28px;">
+		<img src="img/starcraft.png" width="297" height="239"></img>
+		<br/>
+		<a href="http://en.wikipedia.org/wiki/Starcraft">Starcraft (1997)</a>
+  	</div>
+	<div style="position: absolute; z-index: 901; left: 811px; top: 496px;"> 
+    	<img src="img/halflife.jpg" alt="" width="303" height="227"/></img> <br/>
+		<a href="http://en.wikipedia.org/wiki/Half-Life_(video_game)"> Half-Life (1998)</a>
+  	</div>
+	<div style="position: absolute; z-index: 900; left: 560px; top: 306px;"> <img src="img/grantourismo.jpeg" alt="" width="303" height="170" /></img> <br/>
+	  <a href="http://www.play3.de/2010/12/06/gran-turismo-5-knapp-275-millionen-verkaufte-kopien-in-der-startwoche/">Gran Tourismo (1998)</a> </div>  
+</div>
+
+
+<div class="step" data-x="1500" data-y="-2300" data-scale="0.8">
+    <div style="position: absolute; z-index: 900; left: 4px; top: 244px;">
+        <img src="img/warcraft.png" width="313" height="234"></img>
+        <br/>
+        <a href="ttp://en.wikipedia.org/wiki/Warcraft_III:_The_Frozen_Throne">Warcraft III (2002)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: 305px; top: 505px;">
+        <img src="img/wow.jpg" width="318" height="238"></img>
+        <br/>
+        <a href="http://eu.battle.net/wow/de/media/screenshots/screenshot-of-the-day/classic?keywords=&amp;view#/classic-ss116">World of Warcraft (2004)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: 676px; top: 287px;">
+        <img src="img/skyrim.jpg" width="329" height="184"></img>
+        <br/>
+        <a href="http://www.elderscrolls.com/skyrim/media/screenshots/dragon-approach/">Skyrim (2011)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: 593px; top: 15px;">
+        <img src="img/starcraft2.jpg" width="416" height="233"></img>
+        <br/>
+        <a href="http://www.gamestar.de/index.cfm?pid=1674&amp;pk=44595&amp;fk=52761&amp;i=11">Starcraft 2 (2010)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: 329px; top: 28px;">
+        <img src="img/angrybirds.jpg" width="226" height="169"></img>
+        <br/>
+        <a href="http://www.rovio.com/en/our-work/games/view/1/angry-birds">Angry Birds (2009)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: 377px; top: 311px;">
+        <img src="img/farmville.png" width="216" height="125"></img>
+        <br/>
+        <a href="http://onlinegamestools.com/cat/content/farmville">Farmville (2009)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: 784px; top: 515px;">
+        <img src="img/diablo3.jpg" width="366" height="205"></img>
+        <br/>
+        <a href="http://eu.battle.net/d3/de/media/screenshots/?keywords=&view#/monk-005">Diablo 3 (2012)</a>
+    </div>
+    <div style="position: absolute; z-index: 900; left: -52px; top: 9px;"> 
+        <img src="img/sims.jpg" alt="" width="278" height="208" /></img> 
+        <br/>
+        <a href="http://www.elderscrolls.com/skyrim/media/screenshots/dragon-approach/">Die Sims</a><a href="http://gamesantigos.blogspot.de/2012/05/sims-1.html"> (2000)</a>
+    </div>
+</div>
+
+<div id="overview" class="step" data-z="-10" data-scale="11.5">
+</div>
+
+<div class="step" data-x="-700" data-y="-150" data-scale="0.6">
+    <div style="position: absolute; left: 137px; top: 85px;">
+        <video controls height="568" width="720">
+            <source src="./vid/Pathfinding Bugs in Modern Games.mp4" type="video/mp4">
+        </video>
+        <br/>
+        Quelle: 
+        <a href="http://www.youtube.com/watch?v=lw9G-8gL5o">YouTube</a> 
+        <a href="http://www.ai-blog.net/archives/000152.html">AI-Blog</a>
+    </div>
+</div>
+
+<div id="tagcloud" class="step" data-z="-10" data-scale="5" style="">
+	<!-- <img src="TagCloud.png"/> -->
+</div>
+
+</div>
+
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="impress.js"></script>
+<script type="text/javascript">impress().init();</script>
+
+</body>
+</html>

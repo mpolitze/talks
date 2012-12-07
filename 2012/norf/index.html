@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Marius Politze, politze@rz.rwth-aachen.de">
+<link rel="stylesheet" href="metro-ui/css/modern.css"/>
+<link rel="stylesheet" href="metro-ui/css/modern-responsive.css"/>
+<link rel="stylesheet" href="metro-ui/css/theme-dark.css"/>
+<link rel="stylesheet" href="metro-ui/css/modern-ext.css"/>
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script src="metro-ui/javascript/carousel.js"></script>
+<script type="text/javascript" src="pathfinder.js"></script>
+<style>
+	*{
+		-webkit-font-smoothing: none;	
+	}
+	
+	::selection{
+		background: rgba(0, 0, 0, 0.25);	
+	}
+
+	p{
+		padding-right: 20px;	
+	}
+		
+	img{
+		max-width: 320px;
+		max-height: 240px;	
+	}
+	
+	.slide.image img{
+		max-width: none;
+		max-height: none;	
+	}
+		
+	.step.slide{
+		margin-left:0px;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 980px;
+		height: 720px;
+		overflow: hidden;
+		float:left;
+	}
+	
+	.step.slide:first-of-type{
+		margin-left:20px;
+	}
+	
+	.impress-enabled .overview{
+	
+	}
+	
+	.impress-enabled .step.slide{
+		margin: 0px;
+	}
+	
+	.hidden{
+		visibility: hidden;
+	}
+	
+	.small, .small *{
+		font-size: 75%;
+	}
+	
+	.large, .large *{
+		font-size: 16pt;
+		letter-spacing: 0.0em;
+		line-height: 18pt;	
+	}
+	
+	.xlarge, .xlarge *{
+		font-size: 20pt;
+		letter-spacing: 0.01em;
+		line-height: 24pt;	
+	}
+	
+	.xxlarge, .xxlarge *{
+		font-size: 42pt;
+		letter-spacing: 0.00em;
+		line-height: 44pt;
+	}
+</style>
+
+<title>Unbenanntes Dokument</title>
+</head>
+
+<body class="modern-ui" style="width:10000px;">
+<div id="impress">
+
+
+
+<div class="step slide" data-x="-2400">
+	<div class="page-region">
+    	<div class="page-region-content fg-color-white">        
+            <img style="margin-top: 80px; max-width:100%; max-height:100%" src="TagCloud.png"/>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary bg-color-blueDark slide" data-x="-1200" data-y="35" data-scale="1.02">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="hidden">
+				Softwareentwicklung für Moderne Computerspiele und Künstliche Intelligenz
+			</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content fg-color-white">        
+            <div class="grid">
+            	<div class="row">
+			        <p class="span11 xxlarge">
+Softwareentwicklung für Moderne Computerspiele und Künstliche Intelligenz
+	    	        </p>
+                </div>
+                <div class="row voffset1">
+				   	<p class="span11 xlarge">
+                    Naturwissenschaftliches Kolloquium am Gymnasium Norf
+                    </p>
+                </div>
+            	<div class="row voffset9">
+				   	<p class="span11 xlarge">
+                	Marius Politze
+					</p>
+                </div>
+				<div class="row">
+				   	<p class="span11">
+						<a href="mailto:politze@rz.rwth-aachen.de" class="fg-color-darken">politze@rz.rwth-aachen.de</a>
+					</p>
+                </div>
+                <div class="row">
+				   	<p class="span11">
+                	Rechen- und Kommunikationszentrum der RWTH Aachen
+					</p>
+                </div>
+			</div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary bg-color-grayDark slide" data-x="0" data-y="35" data-scale="1.02">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Über Mich I</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<div class="tile-group">
+                <div class="span5 tile double-vertical image">
+                    <div class="tile-content">
+                        <img style="max-width: none; width: auto; margin-left: -240px;" src="img/grilled-steak.jpg" alt="Quelle: http://theculinarycook.com/wp-content/uploads/2012/04/grilled-steak.jpg">
+                    </div>
+                </div>
+                <div class="span5 tile image">
+                    <div class="tile-content">
+                        <img src="img/mainboard.jpg" alt="Quelle: http://ufischerhirchert.hs-harz.de/Hochfrequenztechnik.htm">
+                    </div>
+                </div>                
+                <div class="span5 tile triple image">
+                    <div class="tile-content bg-color-white">
+                        <img style="max-height: none; margin-top: -150px;" src="img/wintersun.jpg" alt="Quelle: Alexander Rettke">
+                    </div>
+                </div> 
+                <div class="span5 tile double image">
+                    <div class="tile-content">
+                        <img style="margin-top: -40px;" src="img/maki.jpg" alt="Quelle: http://www.flickr.com/photos/veganfeast/4358515562/in/photostream/">
+                    </div>
+                </div>                
+                <div class="span5 tile double image">
+                    <div class="tile-content">
+                        <img src="img/canonG11.jpg" alt="Quelle: http://www.flickr.com/photos/veganfeast/4358515562/in/photostream/">
+                    </div>
+                </div>
+                <div class="span5 tile quadro image">
+                    <div class="tile-content">
+                        <img style="" src="img/aachen.jpg" alt="Quelle: http://www.flickr.com/photos/veganfeast/4358515562/in/photostream/">
+                    </div>
+                </div>
+                <div class="span5 tile image">
+                    <div class="tile-content bg-color-white">
+                        <img src="img/HTML5.png" alt="Quelle: http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/HTML5-logo.svg/500px-HTML5-logo.svg.png">
+                    </div>
+                </div> 
+            </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary bg-color-grayDark slide" data-x="995"  data-y="35" data-scale="1.02">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Über Mich II</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<div class="tile-group">
+                <div class="tile triple double bg-color-green"> 
+	                <div class="tile-content">   
+    	                <h2>Abitur</h2>
+                        <h3>Gymnasium Norf, 2006</h3>
+                    </div>
+                </div>
+                <div class="span5 tile double image">
+                    <div class="tile-content">
+                        <img style="margin-top: -20px;" src="img/norf06a.JPG">
+                    </div>
+                </div>             
+				<div class="tile double image">
+                	<div class="tile-content">
+		                 <img style="margin-top: -10px;" src="img/rwth.JPEG">
+                    </div>
+                </div>              
+                <div class="tile triple bg-color-blue">
+	                <div class="tile-content"> 
+    	                <h2>
+						Studium: Computational Engineering Science
+                        </h2>
+                        <h3>RWTH Aachen, 2006 - 2008</h3>
+                    </div>
+                </div>
+                <div class="tile triple"> 
+	                <div class="tile-content bg-color-greenDark">
+   	                	<h2>
+						Duales Studium: Scientific Programming, B.Sc. <br/> Ausbildung zum MATSE
+                        </h2>
+                        <h3>FH Aachen / RWTH Aachen, 2008 - 2010</h3>
+                    </div>
+                </div>
+                <div class="tile double image">
+                    <div class="tile-content">
+		            	<img style="margin-top: -60px;" src="img/rz.jpg" alt="Quelle: http://www.rz.rwth-aachen.de">
+		            </div>
+                </div>
+            </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary bg-color-grayDark slide" data-x="1990"  data-y="35" data-scale="1.02">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Über Mich III</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<div class="tile-group">            
+				<div class="tile image double-vertical">
+                	<div class="tile-content">
+		            	<img style="max-width: none; width: auto; max-height: 100%; margin-left: -210px;" src="img/dek.jpg" alt="Quelle: http://www.maastrichtuniversity.nl/web/Schools/DKE/Thema/ContactAndVisitDKE.htm">
+                    </div>
+                </div>         
+                <div class="tile quadro">
+                	<div class="tile-content bg-color-blueDark">
+   	                	<h2>
+						Studium: Künstliche Intelligenz, M.Sc.
+                        </h2>
+                        <h3>Universität Maastricht, 2010 - 2012</h3>
+                    </div>
+                </div>
+                <div class="tile quadro">
+	                <div class="tile-content bg-color-blue">
+    	                <h2>Projektkoordinator, Entwickler und Dozent für Skriptsprachen und C#</h2>
+        	            <h3>Rechen- und Kommunikationszentrum der RWTH Aachen, 2010 - 2012</h3>
+                    </div>
+                </div>
+                <div class="tile quadro">
+	                <div class="tile-content bg-color-orange">
+    	                <h2>Wissenschaftlicher Mitarbeiter im Bereich eLearning</h2>                                            
+                        <div class="brand">
+							<div class="name">
+		        	            <h3>Rechen- und Kommunikationszentrum der RWTH Aachen, seit 2012</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="tile image">
+	                <div class="tile-content">
+		                <img style="max-width: none;width: auto;max-height: 100%;margin-left:-20px" src="img/rz2.jpg" alt="Quelle: http://www.rz.rwth-aachen.de/ca/k/omk/?lang=en">
+                    </div>
+                </div>
+            </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide overview" data-x="900" data-y="-1200" data-scale="3.78" data-z="-1">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="">Übersicht</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<div class="tile-group">            
+				<div class="tile image triple-vertical double">
+                	<div class="tile-content">
+		            	<img style="max-width: none; width: auto; max-height: 100%; margin-left: -180px;" src="img/mountain-road-landscape.jpg" alt="Quelle: http://www.upwallpapers.net/mountain-road-landscape/">
+                    </div>
+                </div>
+                <div class="tile triple  bg-color-orange">
+	                <div class="tile-content">
+                        <h2 class="fg-color-darken">Was sind moderne Computerspiele?</h2>
+                        <div class="brand">
+							<div class="name">
+                            	<h3 class="fg-color-darken">Beispiele und <br/>
+	    	                    Einsatzgebiete von KI</h3>
+                            </div>
+	                    </div>
+                    </div>
+                </div>     
+                <div class="tile triple bg-color-red">
+	                <div class="tile-content">
+                        <h2>Womit beschäftigt sich KI?</h2>                        
+                        <div class="brand">
+							<div class="name">
+   	                    		<h3>Verschiedene Disziplinen und <br/>
+                       	 		Beispiel: Wegsuche</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile triple bg-color-orangeDark">
+                    <div class="tile-content">
+                        <h2>Wie wird Software entwickelt?</h2>                       
+                        <div class="brand">
+                            <div class="name">
+                                <h3>Methoden und <br/>
+                                die Anwendung im Alltag</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="1145" data-y="-2575" data-scale="0.9">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="">Künstliche Intelligenz</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<div class="tile-group">            
+				<div class="tile double">
+                	<div class="tile-content">
+                    	<h2>Suchen &amp; Finden</h2>
+                        <div class="brand">
+							<div class="name">
+	                            <ul class="large unstyled">
+    	                        	<li>Data Mining</li>
+		    	                    <li>Text Mining</li>
+                                    <li>Optimierung</li>
+                                </ul>
+                            </div>
+	                    </div>
+                    </div>
+                </div>
+                <div class="tile image">
+	                <div class="tile-content">
+    	            	<img src="img/clustering.jpg" alt="Quelle: http://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/Expectation_Maximization_(EM)"/>
+                    </div>
+                </div>                
+                <div class="tile image double">
+	                <div class="tile-content">
+    	            	<img style="margin-top: -30px" src="img/particlefilter.png" alt="Quelle: http://www.jaychakravarty.com/?p=75"/>
+                    </div>
+                </div>
+                <div class="tile image double bg-color-blueLight">
+	                <div class="tile-content">
+    	            	<img src="img/tree.gif" alt="Quelle: http://www.oellermann.com/node/70"/>
+                    </div>
+                </div>
+				<div class="tile">
+                	<div class="tile-content">
+                    	<h2>Spiele</h2>
+                        <div class="brand">
+							<div class="name">
+	                            <ul class="large unstyled">
+    	                        	<li>Klassische</li>
+		    	                    <li>Moderne</li>
+                                </ul>
+                            </div>
+	                    </div>
+                    </div>
+                </div>
+                <div class="tile image double">
+	                <div class="tile-content">
+    	            	<img src="img/go.jpg" alt="Quelle: http://de.wiktionary.org/wiki/Datei:Go_board.jpg"/>
+                    </div>
+                </div>
+                <div class="tile image double">
+	                <div class="tile-content">
+    	            	<img src="img/nao.jpg" alt="Quelle: http://www.designboom.com/technology/nao-programmable-humanoid-robot/"/>
+                    </div>
+                </div>
+                <div class="tile image">
+	                <div class="tile-content">
+    	            	<img class="landscape" style="margin-left: -10px" src="img/equilibrium.png" alt="Quelle: http://en.wikipedia.org/wiki/Nash_equilibrium"/>
+                    </div>
+                </div>
+				<div class="tile double">
+                	<div class="tile-content">
+                    	<h2>Autonome Agenten</h2>
+                        <div class="brand">
+							<div class="name">
+	                            <ul class="large unstyled">
+    	                        	<li>Robotik</li>
+		    	                    <li>Kollaboration &amp; Kommunikation</li>
+                                </ul>
+                            </div>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orange" data-x="-760" data-y="-680" data-scale="0.62" data-rotate="-90">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="hidden">Was sind moderne Computerspiele? I</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        <div class="tile-group">
+        
+	        <div class="tile double double-vertical image">
+            	<div class="tile-content">
+					<img src="img/pacman.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Pac-Man">Pac-Man (1980)</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+	        <div class="tile image">
+            	<div class="tile-content">
+					<img src="img/tetris.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Tetris">Tetris (1984)</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="tile image double">
+            	<div class="tile-content">
+					<img style="margin-top: -70px;" src="img/keen.gif"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://www.commander-keen.com/marooned-on-mars.php">Commander Keen (1990)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile triple image">
+            	<div class="tile-content">
+					<img style="margin-top: -110px;" src="img/mario.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Super_Mario_(series)">Super Mario (1985)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image quadro">
+            	<div class="tile-content">
+					<img style="margin-top: -40px;" src="img/pong.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://de.wikipedia.org/wiki/Pong">Pong (1972)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image">
+            	<div class="tile-content">
+					<img style="margin-top: -20px;" src="img/metroid.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Metroid_(series)">Metroid (1986)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>    
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orange" data-x="-760" data-y="-1260" data-scale="0.62" data-rotate="-90">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="hidden">Was sind moderne Computerspiele? II</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        <div class="tile-group">
+        
+	        <div class="tile double image">
+            	<div class="tile-content">
+					<img style="margin-top:-20px" src="img/sonic.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(video_game)">Sonic the Hedgehog (1991)</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+	        <div class="tile image double">
+            	<div class="tile-content">
+					<img src="img/pokemon.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)">Pokemon (1996)</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="tile image">
+            	<div class="tile-content">
+					<img class="landscape" style="margin-left: -20px;" src="img/grantourismo.jpeg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://www.play3.de/2010/12/06/gran-turismo-5-knapp-275-millionen-verkaufte-kopien-in-der-startwoche/">Gran Tourismo (1998)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile double-vertical image">
+            	<div class="tile-content">
+					<img class="landscape" style="margin-left: -70px;" src="img/mortalkombat.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Mortal_Kombat">Mortal Comabat (1992)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image double">
+            	<div class="tile-content">
+					<img style="margin-top: -40px;" src="img/doom.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Doom_(video_game)">Doom (1993)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image double">
+            	<div class="tile-content">
+					<img style="margin-top: -50px;" src="img/starcraft.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Starcraft">Starcraft (1997)</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tile image">
+            	<div class="tile-content">
+					<img class="landscape" style="margin-top: 0px;" src="img/diablo.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Diablo_(video_game)">Diablo (1996)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image triple">
+            	<div class="tile-content">
+					<img style="margin-top: -60px;" src="img/halflife.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Half-Life_(video_game)"> Half-Life (1998)</a>
+                    </div>
+                </div>
+            </div>            
+        </div>    
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orange" data-x="-760" data-y="-1840" data-scale="0.62" data-rotate="-90">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="hidden">Was sind moderne Computerspiele? III</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        <div class="tile-group">
+        
+	        <div class="tile double-vertical image">
+            	<div class="tile-content">
+					<img class="landscape" style="margin-left:-60px" src="img/sims.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://gamesantigos.blogspot.de/2012/05/sims-1.html">Die Sims (2000)</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+	        <div class="tile image">
+            	<div class="tile-content">
+					<img src="img/angrybirds.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://www.rovio.com/en/our-work/games/view/1/angry-birds">Angry Birds (2009)</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="tile image triple">
+            	<div class="tile-content">
+					<img class="" style="margin-top: -40px;" src="img/starcraft2.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://www.gamestar.de/index.cfm?pid=1674&amp;pk=44595&amp;fk=52761&amp;i=11">Starcraft 2 (2010)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile double image">
+            	<div class="tile-content">
+					<img class="" style="margin-left: 0px;" src="img/warcraft.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://en.wikipedia.org/wiki/Warcraft_III:_The_Frozen_Throne">Warcraft III (2002)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image double">
+            	<div class="tile-content">
+					<img style="margin-top: -20px;" src="img/diablo3.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://eu.battle.net/d3/de/media/screenshots/?keywords=&view#/monk-005">Diablo 3 (2012)</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tile image double">
+            	<div class="tile-content">
+					<img class="" style="margin-top: -70px;" src="img/wow.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://eu.battle.net/wow/de/media/screenshots/screenshot-of-the-day/classic?keywords=&amp;view#/classic-ss116">World of Warcraft (2004)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image">
+            	<div class="tile-content">
+					<img class="landscape" style="margin-top: 0px;" src="img/farmville.png"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://onlinegamestools.com/cat/content/farmville">Farmville (2009)</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tile image double">
+            	<div class="tile-content">
+					<img style="margin-top: -10px;" src="img/skyrim.jpg"/></img>
+		   			<div class="brand bg-color-darken">
+    	        	   	<a class="name" alt="Quelle: http://www.elderscrolls.com/skyrim/media/screenshots/dragon-approach/">Skyrim (2011)</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>    
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orange" data-x="-760" data-y="-2470" data-scale="0.62" data-rotate="-90">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Wegsuche ist wichtig...</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<video controls width="740">
+           		<source src="./vid/Pathfinding Bugs in Modern Games.mp4" type="video/mp4">
+		    </video>
+        	<br/>
+	        Quelle: 
+    	    <a href="http://www.youtube.com/watch?v=lw9G-8gL5o">YouTube</a>,
+        	<a href="http://www.ai-blog.net/archives/000152.html">AI-Blog</a>   
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step" data-x="500" data-y="-2802" data-scale="1.9"></div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="-360" data-y="-2580" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Wegsuche Problemstellung</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        <div class="tile-group">
+        	<div class="tile triple triple-vertical">
+            	<div class="tile-content">
+                	<h2>auch Wegfindung oder Pathfinding</h2>
+					<ul class="xlarge unstyled voffset1">
+                    <li class="voffset1">Gesucht ist ein Algorithmus der: </li>
+                    <li class="voffset1">eine (die kürzeste) Verbindung zwischen zwei Punken A und B findet.</li>
+					<li class="voffset1">A und B sind dabei i.d.R. nur indirekt verbunden.</li>
+   					<li class="voffset1">Sonderfall: A und B sind gar nicht miteinander verbunden.</li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="tile double triple-vertical image">
+            	<div class="tile-content">
+					<img style="margin-left: -160px;" class="landscape" src="img/waypoints.jpg" alt="Quelle: http://www.ai-blog.net/archives/000152.html">
+                </div>                
+            </div>
+        </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="-60" data-y="-2580" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Beispiel</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        <div class="tile-group">
+        	<div class="tile triple triple-vertical image">
+            	<div class="tile-content">
+                	<img src="algorithms/simple_map.png"/>
+                </div>                
+            </div>
+            <div class="tile double triple-vertical bg-color-blueLight">
+            	<div class="tile-content">
+	                <h2 class="fg-color-darken">Bewegungsrichtung</h2>
+    	            <ul class="large unstyled">
+                        <li class="fg-color-darken">L, R, U, D</li>
+                        <li class="fg-color-darken">(immer in dieser Reihenfolge)</li>
+                    </ul>
+   	                <h2 class="fg-color-darken voffset3">Abstände</h2>
+    	            <ul class="large unstyled">
+                        <li class="fg-color-darken">Manhatten</li>
+                        <li class="fg-color-darken">Euklid</li>
+                    </ul>
+    				<h2 class="fg-color-darken voffset3">Drei Algorithmen</h2>
+                    <ul class="large unstyled">
+                        <li class="fg-color-darken">Bugging (Blind)</li>
+                        <li class="fg-color-darken">Tiefensuche (Blind)</li>
+                        <li class="fg-color-darken">Breitensuche (Blind)</li>
+                        <li class="fg-color-darken">A*</li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+        </div>    
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="240" data-y="-2580" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Bugging <small>Algorithmus</small></h1>
+        </div>
+    </div>
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <p class="voffset2">
+        	<ol class="large">
+            <li class="">Solange nicht am Ziel:</li>
+            <li class="voffset1">Laufe immer gerade aus, bis zur nächsten Wand.</li>
+            <li class="voffset1">Wähle an der Wand die erste freie Richtung aus L, R, U, D</li>
+            <li class="voffset1">Gibt es eine freie Richtung, die bis jetzt noch nicht abgelaufen ist geht zu 1.</li>
+            <li class="voffset1">Sonst gehe zurück zur letzten Entscheidung und suche die nächste freie Richtung.</li>
+	        </ol>   
+        </p>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="540" data-y="-2580" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Bugging <small>Beispiel</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+            <div class="offset1 span7">
+	            <div id="buggingdemo"></div>
+                <script>
+					BuggingPathfinder = pathfinder();
+					BuggingPathfinder.Initialize("buggingdemo");
+				</script>
+                <a href="javascript:BuggingPathfinder.BuggingBlindStep()">Step</a>
+            </div>
+        </div>  
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="540" data-y="-2802" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Bugging <small>Zusammenfassung</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+                <h2>Pro</h2>
+                <ul class="unstyled large span5">
+                    <li>Blind: Ja</li>
+                    <li>Unbekannte Karten: Ja</li>                    
+                    <li>Speichernutzung: Gering</li>
+                </ul>
+            </div>
+            <div class="row">
+            <div  class="offset5 span6">
+                <h2>Contra</h2>  
+                <ul class="unstyled large">      
+                    <li>Kürzester Weg: Nein</li>
+                    <li>Geschwindigkeit: Langsam</li>
+                    <li>Implementierung: Einfach aber Fehleranfällig</li>
+                </ul>
+            </div>
+            </div>
+            <div class="row">
+	            <h2>Anwendungsgebiete in der KI</h2>
+	            <div  class="span7 large">
+        	    	<p>Bugging eignet sich insbesondere für unbekannte Karten. Der Algorithmus ist in der Robotik beliebt zum Erkunden von Arealen.</p>
+    	        </div>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="240" data-y="-2802" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Tiefensuche <small>Algorithmus</small></h1>
+        </div>
+    </div>
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <p class="voffset2">
+        	<ol class="large">
+            <li class="">Solange nicht am Ziel:</li>
+            <li class="voffset1">Markiere das aktuelle Feld als besucht</li>
+            <li class="voffset1">Wähle nach jedem Schritt die nächste freie Richtung aus L, R, U, D</li>
+            <li class="voffset1">Gibt es noch eine freie Richtung, gehe einen Schritt in die Richtung, weiter mit 1.</li>
+            <li class="voffset1">Sonst gehe einen Schritt zurück und suche die nächste freie Richtung.</li>
+	        </ol>   
+        </p>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="-60" data-y="-2802" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Tiefensuche <small>Beispiel</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+			<div class="offset1 span7">
+	            <div id="dfsdemo"></div>
+                <script>
+					DFSPathfinder = pathfinder();
+					DFSPathfinder.Initialize("dfsdemo");
+				</script>
+                <a href="javascript:DFSPathfinder.DFSBlindStep()">Step</a>
+            </div>
+        </div>  
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="-360" data-y="-2802" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Tiefensuche <small>Zusammenfassung</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+                <h2>Pro</h2>
+                <ul class="unstyled large span5">
+                    <li>Blind: Ja</li>
+                    <li>Unbekannte Karten: Ja</li>                    
+                    <li>Speichernutzung: Gering</li>
+                    <li>Implementierung: Einfach</li>
+                </ul>
+            </div>
+            <div class="row">
+            <div  class="offset5 span6">
+                <h2>Contra</h2>  
+                <ul class="unstyled large">      
+                    <li>Kürzester Weg: Nein</li>
+                    <li>Geschwindigkeit: Sehr Langsam</li>
+                </ul>
+            </div>
+            </div>
+            <div class="row">
+	            <h2>Anwendungsgebiete in der KI</h2>
+	            <div  class="span7 large">
+        	    	<p>Tiefensuche wird nur sehr selten verwendet. Die Wahrsscheinlichkeit sich "zu verlaufen" ist zu groß.</p>
+    	        </div>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="-360" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Breitensuche <small>Algorithmus</small></h1>
+        </div>
+    </div>
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <p class="voffset2">
+        	<ol class="large">
+            <li class="">Solange nicht am Ziel:</li>
+            <li class="voffset1">Markiere das aktuelle Feld als besucht</li>
+            <li class="voffset1">Merke dir alle angrenzenden, freien Felder L, R, U, D</li>
+            <li class="voffset1">Gehe zum Feld, das am längsten vorgemerk ist, weiter mit 1.</li>
+	        </ol>   
+        </p>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="-60" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Breitensuche <small>Beispiel</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+            <div class="offset1 span7">
+	            <div id="bfsdemo"></div>
+                <script>
+					BFSPathfinder = pathfinder();
+					BFSPathfinder.Initialize("bfsdemo");
+				</script>
+                <a href="javascript:BFSPathfinder.BFSBlindStep()">Step</a>
+            </div>
+        </div>  
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="240" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Breitensuche <small>Zusammenfassung</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+                <h2>Pro</h2>
+                <ul class="unstyled large span5">
+                    <li>Blind: Ja</li>
+                    <li>Implementierung: Einfach</li>
+	                <li>Kürzester Weg: Ja</li>
+                </ul>
+            </div>
+            <div class="row">
+            <div  class="offset5 span6">
+                <h2>Contra</h2>  
+                <ul class="unstyled large">      
+					<li>Speichernutzung: Hoch</li>                    
+                    <li>Unbekannte Karten: Nein</li>                    
+                    <li>Geschwindigkeit: Sehr Langsam</li>
+                </ul>
+            </div>
+            </div>
+            <div class="row">
+	            <h2>Anwendungsgebiete in der KI</h2>
+	            <div  class="span7 large">
+        	    	<p>Breitensuche wird nur sehr selten verwendet. Der Algorithmus benötogt i.d.R. zu viel Speicher.</p>
+    	        </div>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="540" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>A* <small>Algorithmus</small></h1>
+        </div>
+    </div>
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <p class="voffset2">
+        	<ol class="large">
+            <li class="">Solange nicht am Ziel:</li>
+            <li class="voffset1">Markiere das aktuelle Feld als besucht</li>
+            <li class="voffset1">Merke dir alle angrenzenden, freien Felder L, R, U, D</li>
+            <li class="voffset1">Merke dir zu den Feldern: 
+    	        <ul>
+                <li>Distanz: Wie weit war es bis hier?</li>
+				<li>Schätzung: Wie weit ist es mindestens noch bis zum Ziel? (Heuristik)</li>
+	            </ul>
+            </li>
+            <li class="voffset1">Gehe zum Feld mit der kleinsten Summe aus Distanz und Schätzung</li>
+	        </ol>   
+        </p>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="840" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>A* <small>Beispiel: Manhattan Distanz</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+            <div class="offset1 span7">
+	            <div id="astardemo"></div>
+                <script>
+					AStarPathfinder = pathfinder();
+					AStarPathfinder.Initialize("astardemo");
+				</script>
+                <a href="javascript:AStarPathfinder.AStarStep()">Step</a>
+            </div>
+        </div>  
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="1140" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>A* <small>Beispiel: Diagonal Distanz</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+            <div class="offset1 span7">
+	            <div id="astarDiagonaldemo"></div>
+                <script>
+					AStarDiagonalPathfinder = pathfinder();
+					AStarDiagonalPathfinder.Initialize("astarDiagonaldemo");
+				</script>
+                <a href="javascript:AStarDiagonalPathfinder.AStarStepDiagonal()">Step</a>
+            </div>
+        </div>  
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="1440" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>A* <small>Beispiel Euklidische Distanz</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+            <div class="offset1 span7">
+	            <div id="astarEuclideandemo"></div>
+                <script>
+					AStarEuclideanPathfinder = pathfinder();
+					AStarEuclideanPathfinder.Initialize("astarEuclideandemo");
+				</script>
+                <a href="javascript:AStarEuclideanPathfinder.AStarStepEuclidean()">Step</a>
+            </div>
+        </div>  
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-greenDark" data-x="1440" data-y="-3246" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>A* <small>Zusammenfassung</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+                <h2>Pro</h2>
+                <ul class="unstyled large span5">
+	                <li>Kürzester Weg: Ja</li>
+					<li>Speichernutzung: Mittel</li>                    
+                    <li>Implementierung: wenig Fehlerquellen</li>
+                </ul>
+            </div>
+            <div class="row">
+            <div  class="offset5 span6">
+                <h2>Contra</h2>  
+                <ul class="unstyled large">    
+                    <li>Blind: Nein</li>  
+                    <li>Unbekannte Karten: Nein</li>                    
+                    <li>Geschwindigkeit: Mittel</li>
+                </ul>
+            </div>
+            </div>
+            <div class="row">
+	            <h2>Anwendungsgebiete in der KI</h2>
+	            <div  class="span10 large">
+        	    	<p>A* ist der quasi standard Algorithmus zur Wegsuche für Navigation auf bekannten Karten.</p>
+                    <p>Durch Anpassungen an der Heuristik können die Eigenschaften von A* gesteuert werden:</p>
+    	        </div>
+            </div>
+            <div class="row large">           	
+				<ul>
+					<li>H(n)=0, A* wird zum Dijkstra-Algorithmus</li>
+					<li>H(n)&lt;=reale Distanz, A* liefert garantiert den kürzesten Pfad</li>
+					<li>H(n)=reale Distanz, A* durchsucht nur Knoten, die zum kürzesten Pfad gehören</li>
+					<li>H(n)&gt;reale Distanz, Der kürzeste Pfad ist nicht mehr garantiert</li>
+					<li>H(n)=∞, A* wird zur Breitensuche</li>
+				</ul>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="1140" data-y="-3246" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Warum is Wegsuche so schwer? I</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+            <div  class="span11 large">
+            <ul class="unstyled">
+                <li>Moderne Spiele sind häufig nicht so "eckig"</li>                
+                <li class="voffset1">3D Welten machen die Suche komplizierter</li>                
+            	<li class="voffset1">Dynamische Objekte</li>
+                <li class="voffset1">Der Kürzeste Weg ist nicht immer der beste Weg</li>
+                <li class="voffset1">Koordination mehrerer Bewegungen, halten von Formationen</li>
+            </ul>
+            </div>            
+            </div>
+            <div class="row">
+            <div  class="offset4 span6">
+                <img style="width:100%; max-height:none;" src="img/3dgraph.jpg"></img>
+            </div>
+            </div>
+        </div>
+        </div>
+	</div>            
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="840" data-y="-3246" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Warum is Wegsuche so schwer? II</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+                <h2>Andere Parkettierungen</h2>
+                <img src="tesselations/square-grid.png"></img>
+				<img src="tesselations/hexagon-grid.png"></img>
+                <img src="tesselations/triangle-grid.png"></img>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="540" data-y="-3246" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Warum is Wegsuche so schwer? II</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+            	<h2>Auch in Blockwelten gibt es schöne Pfade</h2>
+                <img src="img/pathfinding_path-smoothing.png"></img>
+            </div>
+        </div>
+        </div>
+	</div>            
+</div>
+
+
+
+<div class="step page secondary slide bg-color-red" data-x="240" data-y="-3246" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Graphen<small>Ein anderes Modell für Wegsuche</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+	        <div class="row">
+			 <div class="span5">
+			 <img src="img/navgraph.jpg" />
+			 </div>
+			 <div class="span5 xlarge">
+				Statt gleichförmiger Flächen werden einzelne Wegpunkte miteinander verbunden
+			 </div>
+            </div>
+            <div class="row">
+             <div class="span10 xlarge">
+             	Ein Graph besteht aus einer Menge von Knoten und einer Menge von Kanten, die die Knoten verbinden
+             </div>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-grayDark" data-x="-60" data-y="-3246" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Navigationsgitter</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+            <div class="row">
+             <div class="span5 xlarge">
+             	In einem Navigationsgitter werden aneinander grenzende Wegpunkte zu konvexen Polygonen zusammengefasst
+             </div>
+             <div class="span5">
+             <img src="img/navmesh.jpg" />
+             </div>
+            </div>
+            <div class="row">
+             <div class="span10 xlarge">
+             	Alle Punkte innerhalb eines konvexen Polygons lassen sich mitenander verbinden, 
+                sodass die Verbindung komplett im Polygon liegt.
+             </div>
+            </div>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step" data-x="2200" data-y="-2702" data-scale="1.2"></div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="2045" data-y="-2575" data-scale="0.9">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Software Entwicklung</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="tile-group">            
+        
+				<div class="tile double">
+                	<div class="tile-content">
+                    	<h2>Organisieren &amp; Planen</h2>
+                        <div class="brand">
+							<div class="name">
+	                            <ul class="large unstyled">
+    	                        	<li>Modellierung</li>
+		    	                    <li>Algorithmen</li>
+                                    <li>Anforderungen</li>
+                                </ul>
+                            </div>
+	                    </div>
+                    </div>
+                </div>
+                <div class="tile image">
+	                <div class="tile-content">
+    	            	<img src="img/Customer-Experience.jpg" alt="Quelle: http://www.executiveboard.com/towergroup-blog/making-the-case-for-customer-experience-technology/#more-1268"/>
+                    </div>
+                </div>                
+                <div class="tile image double">
+	                <div class="tile-content">
+    	            	<img style="margin-top: -30px" src="img/Gantt_diagramm.png" alt="Quelle: http://de.wikipedia.org/wiki/Gantt-Diagramm"/>
+                    </div>
+                </div>
+                <div class="tile image double bg-color-blueLight">
+	                <div class="tile-content">
+                        <img src="img/Scrum_process.png" alt="Quelle: http://en.wikipedia.org/wiki/Scrum_(development)"/>
+                    </div>
+                </div>
+				<div class="tile">
+                	<div class="tile-content">
+                    	<h2>Support</h2>
+                        <div class="brand">
+							<div class="name">
+	                            <ul class="large unstyled">
+    	                        	<li>Qualität</li>
+		    	                    <li>Wartbarkeit</li>
+                                    <li>Testbarkeit</li>
+                                </ul>
+                            </div>
+	                    </div>
+                    </div>
+                </div>
+                <div class="tile image double">
+	                <div class="tile-content">
+    	            	<img src="img/questions.jpg" alt="Quelle: http://www.iqualityconcepts.com/testing.html"/>    	            	
+                    </div>
+                </div>
+                <div class="tile image double">
+	                <div class="tile-content">
+    	            	<img src="img/ER_Diagram_MMORPG.png" alt="Quelle: http://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model"/>
+                    </div>
+                </div>
+                <div class="tile image">
+	                <div class="tile-content">
+    	            	<img class="landscape" style="margin-left: -10px" src="img/vs2012.png" alt="Quelle: http://de.wikipedia.org/wiki/Microsoft_Visual_Studio"/>
+                    </div>
+                </div>
+				<div class="tile double">
+                	<div class="tile-content">
+                    	<h2>Implementieren</h2>
+                        <div class="brand">
+							<div class="name">
+	                            <ul class="large unstyled">                                
+    	                        	<li>Programmiersprachen</li>
+		    	                    <li>Datenbanken</li>
+                                </ul>
+                            </div>
+	                    </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="1750" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Wozu Planen?</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+            <div class="row">
+                <div class="span6 large">
+                <ul>
+                    <li>Häufig weiß nicht mal der Kunde, was er haben möchte</li>
+                    <li class="voffset1">Planung von Mitarbeitern und Ressourcen</li>
+                    <li class="voffset1">Kostenkalkulation</li>
+                    <li class="voffset1">Wiederverwendbarkeit</li>
+                    <li class="voffset1">Finden der Steakholder und der "Betroffenen" im Projektumfeld</li>
+                </ul>
+                </div> 
+                <div class="span5">
+                    <img style="height:500px; width:auto; max-width:none; max-height:none;" src="img/projektmanagement1.png" alt="Quelle: http://www.projectcartoon.com/" />
+                </div>
+            </div>            	         
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="2050" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Programmierung<small>Teure Fehler: Mars Climate Orbiter (1999), Ariane 5 (1996)</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+            <div class="row">
+                <div class="span6 large">
+                	<img class="voffset1" style="height:auto; width:100%; max-width:none; max-height:none;" src="img/Mars_climate_orbiter-1.jpg" alt="Quelle: http://de.wikipedia.org/wiki/Mars_Climate_Orbiter"/>
+                </div> 
+                <div class="span4">
+                    <img style="height:auto; width:100%; max-width:none; max-height:none;" src="img/Ariane5.jpg" alt="Quelle: http://www.dlr.de/DesktopDefault.aspx/tabid-4836/8021_read-26026/gallery-1/gallery_read-Image.1.16543/" />
+                </div>   
+			</div>       
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="2350" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Programmierung<small>Aus dem Handbuch der PDP-8 (1972)</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+            <div class="row">
+                <div class="span6 large">
+                	<img class="voffset6" style="height:auto; width:100%; max-width:none; max-height:none;" src="img/pdp8.png" alt="Quelle: http://www.rz.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaaciyvl" />                        
+                </div> 
+                <div class="span5">
+                    <img style="height:500px; width:auto; max-width:none; max-height:none;" src="img/projektmanagement4.png" alt="Quelle: http://www.projectcartoon.com/" />
+                </div>   
+			</div>       
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="2650" data-y="-3024" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Vorgehensmodelle I<small>Wasserfallmodell ca. 1970</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+        	<div class="row">
+                <div class="span6 large">
+                    <p>Die Entwicklung eines Programms wird in einzelne Schritte unterteilt:</p>
+                    <img  class="voffset1" style="height:auto; width:100%; max-width:none; max-height:none;" src="img/wasserfallmodell.jpg" />
+                    <p class="voffset1">Die Schritte werden einfach nacheinander Abgearbeitet.</p>
+                </div> 
+                <div class="span5">
+                    <img style="height:500px; width:auto; max-width:none; max-height:none;" src="img/projektmanagement2.png" alt="Quelle: http://www.projectcartoon.com/" />
+                </div>
+            </div>          
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="2650" data-y="-2802" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Vorgehensmodelle II<small>Scrum ca. 2003</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+            <div class="row">
+                <div class="span6 large">
+                    <p>Statt der Entwicklungsphasen werden Aktivitäten bestimmt.</p>
+                    <img class="voffset1" style="height:auto; width:100%; max-width:none; max-height:none;" src="img/Scrum_process.png" />
+                    <p class="voffset1">Die Aktivitäten werden während des Projekts immer wiederholt. Die genauen Aufgaben werden erst während des Projekts definiert.</p>
+                </div> 
+                <div class="span5">
+                    <img style="height:500px; width:auto; max-width:none; max-height:none;" src="img/projektmanagement3.png" alt="Quelle: http://www.projectcartoon.com/" />
+                </div>   
+			</div>       
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orangeDark" data-x="2650" data-y="-2580" data-scale="0.3">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Programmierung<small>Verschärfung der Probleme</small></h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <div class="grid">
+            <div class="row">
+                <div class="span6 large">
+                	<ul>
+                    <li>Die Komplexität von Programmen nimmt ständig zu</li>
+                    <li class="voffset1">Umfang und Lebensdauer nehmen zu</li>
+                    <li class="voffset1">Neue Anwendungen werden für den Rechnereinsatz erschlossen</li>
+                    <li class="voffset1">Immer mehr Entwickler sind mit der Pflege von Altsystemen beschäftigt</li>
+                    <li class="voffset1">Die Wirtschaft aller industrialisierten Länder hängt von Software ab</li>
+                    <li class="voffset1">Immer mehr Systeme werden durch Software gesteuert</li>
+                    </ul>                        
+                </div> 
+                <div class="span5">
+                    <img style="height:500px; width:auto; max-width:none; max-height:none;" src="img/projektmanagement5.png" alt="Quelle: http://www.projectcartoon.com/" />
+                </div>   
+			</div>       
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary overview" data-x="900" data-y="-1500" data-scale="2" data-z="1500"></div>
+
+
+
+<div class="step page secondary slide bg-color-blueDark" data-x="2700" data-y="-1500" data-z="2000" data-rotate-y="0">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1 class="hidden">Vielen Dank für die Aufmerksamkeit</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+			<div class="offset1 voffset4 xxlarge">Vielen Dank für die Aufmerksamkeit!</div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-blueDark" data-x="3700" data-y="-1500" data-z="2000" data-rotate-y="0">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Zum Weiterlesen...</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+	    <div class="page-region-content fg-color-white">
+        <a href="http://mpolitze.github.com/talks/">
+			<img style="margin-left: 711px; margin-top: -110px;" src="img/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"/>
+		</a>
+        <div class="grid">
+            <div class="row">
+                <div class="span10 large">
+                <ul class="unstled large">
+                <li>Wegsuche mit A*: <br/> 
+                	<a href="http://theory.stanford.edu/~amitp/GameProgramming/index.html" class="fg-color-darken">http://theory.stanford.edu/~amitp/GameProgramming/index.html</a></li>
+                <li>Einführung in Softwareengineering:  <br/> 
+                	<a href="http://www.rz.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaaciyvl" class="fg-color-darken">http://www.rz.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaaciyvl</a></li>
+                <li>Wegsuche in modernen Spielen:  <br/> 
+                	<a href="http://www.ai-blog.net/archives/000152.html" class="fg-color-darken">http://www.ai-blog.net/archives/000152.html</a></li>
+                <li>Spiele KI in L4D:  <br/> 
+                	<a href="http://www.valvesoftware.com/publications/2009/ai_systems_of_l4d_mike_booth.pdf" class="fg-color-darken">http://www.valvesoftware.com/publications/2009/ai_systems_of_l4d_mike_booth.pdf</a></li>
+                <li>MATSE-Ausbildung in Aachen:   <br/> 
+                	<a href="http://www.matse-ausbildung.de" class="fg-color-darken">http://www.matse-ausbildung.de</a></li>
+                <li>Department of Knowledge Engineering an der Uni Maastricht: <br/>
+                	<a href="http://www.maastrichtuniversity.nl/web/Schools/DKE.htm" class="fg-color-darken">http://www.maastrichtuniversity.nl/web/Schools/DKE.htm</a></li>
+                <li>Dieser Vortrag:  <br/> 
+                	<a href="http://mpolitze.github.com/talks/2012/norf" class="fg-color-darken">http://mpolitze.github.com/talks/2012/norf</a></li>
+                </ul>
+                </div>   
+			</div>       
+        </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="step page secondary slide bg-color-orange" data-x="3900" data-y="-1500" data-z="500" data-rotate-y="45">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Bonus</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<video controls width="740">
+           		<source src="./vid/HalfLifeWaypoint.mp4" type="video/mp4">
+		    </video>
+        	<br/>
+	        Quelle: 
+    	    <a href="http://www.youtube.com/watch?&v=WzYEZVI46Uw">YouTube</a>,
+        	<a href="http://www.ai-blog.net/archives/000152.html">AI-Blog</a>  
+        </div>    
+	</div>
+</div>
+
+
+
+
+<div class="step page secondary slide bg-color-orange" data-x="4500" data-y="-1500" data-z="-500" data-rotate-y="45">
+	<div class="page-header">
+    	<div class="page-header-content">
+        	<h1>Bonus</h1>
+        </div>
+    </div>
+
+	<div class="page-region">
+    	<div class="page-region-content">
+        	<video controls width="740">
+           		<source src="./vid/StalkingCat.mp4" type="video/mp4">
+		    </video>
+        	<br/>
+	        Quelle: 
+    	    <a href="http://www.youtube.com/watch?v=fzzjgBAaWZw">YouTube</a> 
+        </div>    
+	</div>
+</div>
+
+
+</div>
+
+<script type="text/javascript" src="impress.js"></script>
+<script type="text/javascript">impress().init();</script>
+</body>
+</html>

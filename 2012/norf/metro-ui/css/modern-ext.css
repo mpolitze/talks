@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.voffset1{
+	margin-top:25px !important;
+}
+
+.voffset2{
+	margin-top:50px !important;
+}
+
+.voffset3{
+	margin-top:75px !important;
+}
+
+.voffset4{
+	margin-top:100px;
+}
+
+.voffset5{
+	margin-top:125px;
+}
+
+.voffset6{
+	margin-top:150px;
+}
+
+.voffset7{
+	margin-top:175px;
+}
+
+.voffset8{
+	margin-top:200px;
+}
+
+.voffset9{
+	margin-top:225px;
+}
+
+.page.secondary .page-header .page-header-content h1{
+	height: 75px;
+}
+
+.tile.image > .tile-content > img.landscape{
+	max-width: none;
+	max-height: 100%;
+	width: auto;
+	height: 100%;	
+}
+
+.tile.image .brand{
+	opacity: 0.7;	
+}
