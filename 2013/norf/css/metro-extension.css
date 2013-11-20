@@ -1,0 +1,70 @@
+﻿.metro .voffset1{
+        margin-top:25px !important;
+}
+
+.metro .voffset2{
+        margin-top:50px !important;
+}
+
+.metro .voffset3{
+        margin-top:75px !important;
+}
+
+.metro .voffset4{
+        margin-top:100px !important;
+}
+
+.metro .voffset5{
+        margin-top:125px !important;
+}
+
+.metro .voffset6{
+        margin-top:150px !important;
+}
+
+.metro .voffset7{
+        margin-top:175px !important;
+}
+
+.metro .voffset8{
+        margin-top:200px !important;
+}
+
+.metro .voffset9{
+        margin-top:225px !important;
+}
+
+.metro .voffset10{
+        margin-top:250px !important;
+}
+
+.metro .voffset11{
+        margin-top:275px !important;
+}
+
+.metro .voffset11{
+        margin-top:300px !important;
+}
+
+.metro .page.secondary .page-header .page-header-content h1{
+        height: 75px;
+}
+
+.metro .tile.image > .tile-content > img.landscape{
+        max-width: none;
+        max-height: 100%;
+        width: auto;
+        height: 100%;        
+}
+
+.metro .tile.image .brand{
+        opacity: 0.7;        
+}
+
+.metro .no-indent{
+    margin-left: 0px !important;
+}
+
+.metro .tile.five {
+        width: 640px;
+}
