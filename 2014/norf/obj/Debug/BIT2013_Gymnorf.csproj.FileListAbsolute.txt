@@ -1,0 +1,6 @@
+c:\users\mappo\documents\visual studio 2013\Projects\BIT2013_Gymnorf\BIT2013_Gymnorf\bin\BIT2013_Gymnorf.dll
+c:\users\mappo\documents\visual studio 2013\Projects\BIT2013_Gymnorf\BIT2013_Gymnorf\bin\BIT2013_Gymnorf.pdb
+c:\users\mappo\documents\visual studio 2013\Projects\BIT2013_Gymnorf\BIT2013_Gymnorf\obj\Debug\BIT2013_Gymnorf.csprojResolveAssemblyReference.cache
+c:\users\mappo\documents\visual studio 2013\Projects\BIT2013_Gymnorf\BIT2013_Gymnorf\obj\Debug\BIT2013_Gymnorf.dll
+c:\users\mappo\documents\visual studio 2013\Projects\BIT2013_Gymnorf\BIT2013_Gymnorf\obj\Debug\BIT2013_Gymnorf.pdb
+c:\users\mappo\documents\visual studio 2013\Projects\BIT2013_Gymnorf\BIT2013_Gymnorf\bin\BIT2013_Gymnorf.dll.config
